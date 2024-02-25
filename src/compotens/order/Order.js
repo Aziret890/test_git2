@@ -2,11 +2,14 @@ import React from "react";
 import { useProvaider } from "../../Contexts";
 import { Card } from "antd";
 import Meta from "antd/es/card/Meta";
+import Header from "../header/Header";
 
 function OrderDetals() {
   const { basket } = useProvaider();
   console.log(basket);
   return (
+    <>
+    <Header/>
     <div className="container">
       <div style={{ display: "flex", flexWrap: "wrap" }} className="blockMenu">
         {basket?.map((el) => (
@@ -22,6 +25,7 @@ function OrderDetals() {
         ))}
       </div>
     </div>
+    </>
   );
 }
 

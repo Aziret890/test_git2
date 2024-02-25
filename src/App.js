@@ -26,9 +26,6 @@ function App() {
             path: "/edit",
             element: <Edit />,
         },
-
-
-
     ]);
     return (
         <div className="App">
