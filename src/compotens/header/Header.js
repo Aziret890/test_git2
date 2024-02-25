@@ -6,7 +6,7 @@ function Header() {
         <header>
             <div className="container">
                 <div className="header">
-                    <h1>AZIRET</h1>
+                    <h1>Online store</h1>
                     <nav className="nav">
                         <Link to={"/menu"} className="nav__link">
                             <li>Menu</li>
