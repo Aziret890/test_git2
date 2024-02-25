@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "../compotens/Header";
-import Menu from "../compotens/Menu";
+import Header from "../compotens/header/Header";
+import Menu from "../compotens/menu/Menu";
 
 function MenuPages() {
-  return (
-    <>
-      <Header />
-      <Menu />
-    </>
-  );
+    return (
+        <>
+            <Header />
+            <Menu />
+        </>
+    );
 }
 
 export default MenuPages;
