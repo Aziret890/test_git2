@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useMainContext, useProvaider } from "../../Contexts";
-
+import "./push.css";
 function Push() {
     const [name, setName] = useState("");
     const [url, setUrl] = useState("");
@@ -28,7 +28,7 @@ function Push() {
     }
     return (
         <>
-            <div style={{ maxWidth: "700px", margin: "100px auto" }}>
+            <div className="addTodo">
                 <input
                     onChange={(e) => setName(e.target.value)}
                     value={name}
@@ -53,8 +53,10 @@ function Push() {
                     id=""
                     placeholder="photo 📷📸"
                 />
+                <button onClick={() => onFinish()} className="btn__input">
+                    create product
+                </button>
             </div>
-            <button onClick={() => onFinish()}>create product</button>
         </>
     );
 }

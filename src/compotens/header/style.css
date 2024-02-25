@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav__link {
+    list-style: none;
+    text-decoration: none;
+}
