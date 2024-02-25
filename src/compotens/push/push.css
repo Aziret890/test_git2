@@ -1,0 +1,6 @@
+.addTodo {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 250px 0 0 550px;
+}
